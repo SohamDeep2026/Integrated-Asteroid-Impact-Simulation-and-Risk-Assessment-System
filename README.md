@@ -159,8 +159,8 @@ L --> M[Impact Zones]
 L --> N[Affected Population]
 L --> O[Risk Metrics]
 L --> P[Scenario Comparison]
+```
 
-````markdown
 ## ⚙️ Simulation Workflow
 
 ```mermaid
@@ -172,16 +172,19 @@ participant DataSources
 participant Dashboard
 
 User->>Simulator: Configure asteroid parameters
-Simulator->>DataSources: Fetch NEO & population datasets
-DataSources-->>Simulator: Return data
+Simulator->>DataSources: Fetch NASA datasets
+DataSources-->>Simulator: Return NEO and population data
 
 Simulator->>Simulator: Compute impact effects
-Simulator->>Simulator: Estimate hazard zones
-Simulator->>Simulator: Calculate affected population
+Simulator->>Simulator: Calculate hazard zones
+Simulator->>Simulator: Estimate affected population
 
-Simulator-->>Dashboard: Generate visualization
-Dashboard-->>User: Display results & risk metrics
+Simulator-->>Dashboard: Generate visualizations
+Dashboard-->>User: Display impact analysis and risk metrics
+```
 
-## License
+---
+
+## 📄 License
 
 This project is licensed under the MIT License.
