@@ -8,13 +8,13 @@ Designed as both an educational and decision-support tool, Meteor Madness demons
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 https://nasa-smoky-theta.vercel.app/
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### Physics-Based Impact Simulation
 
@@ -52,7 +52,7 @@ Developed as part of the NASA Space Apps Challenge to improve public understandi
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - HTML5
@@ -87,7 +87,7 @@ External Data Sources:
 
 ---
 
-## 🔧 Engineering Highlights
+## Engineering Highlights
 
 ### Scientific Simulation Engine
 Implemented physics-based asteroid impact calculations to estimate crater size, impact energy, seismic effects, thermal radiation, and tsunami generation from user-defined asteroid parameters.
@@ -124,7 +124,7 @@ Combined scientific simulation outputs with real-world demographic datasets to e
 ---
 
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart LR
@@ -161,7 +161,7 @@ L --> O[Risk Metrics]
 L --> P[Scenario Comparison]
 ```
 
-## ⚙️ Simulation Workflow
+## Simulation Workflow
 
 ```mermaid
 sequenceDiagram
@@ -185,6 +185,6 @@ Dashboard-->>User: Display impact analysis and risk metrics
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
